@@ -1,0 +1,68 @@
+#email{
+    width: 300px;
+    height: 20px;
+}
+#lastname{
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #email {
+        width: 100%;
+    }
+    #lastname {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .text, .satisy {
+        font-size: medium;
+    }
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid #ffffff;
+
+}
+th, td{
+    text-align:left;
+    padding: 10px;
+}
+tr:nth-child(odd) {
+    background-color: #e9e9f4;
+  }
+  .table2{
+    margin-top: 60xpx;
+  }
+ .footer{
+    margin-top:20px ;
+ }
+ #button{
+    width: 60px;
+    height:30px ;
+ }
+ #button:hover{
+   background: rgb(236, 211, 211) ;
+   color:#5594c4;
+   cursor: pointer;
+ }
+ @media screen and (max-width: 768px) {
+    table {
+        margin-top: 10px; 
+    }
+
+    .table2 {
+        margin-top: 20pxpx; 
+    }
+
+    .footer {
+        margin-top: 8px; 
+    }
+
+    th, td {
+        padding: 6px; 
+    }
+}
+
+    
+    
